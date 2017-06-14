@@ -1,0 +1,77 @@
+Table 1
+                                   $4 buffet           $8 buffet        F test (p value)  
+Age                                                                   0.41-0.42 (0.52-0.52)
+Gender (male percent)                 0.6                0.515                            
+N                                      65                  68                             
+Height                                                                0.73-0.79 (0.38-0.39)
+Weight                                                                0.03-0.03 (0.87-0.87)
+Number in group                   3.03 (1.52)         3.28 (1.29)         1.04 (0.31)     
+N                                      65                  68                             
+I was hungry when I came in       6.62 (1.85)         6.64 (2.06)          0.0 (0.95)     
+N                                      66                  70                             
+I am hungry now                   1.88 (1.34)         1.85 (1.75)         0.01 (0.91)     
+N                                      67                  66                             
+
+
+
+Reproducing original Table 2 statistics
+(note: at a sample size of 40 floating point errors affect Python rounding)
+                                                          $4 buffet      $8 buffet   F test (p value)
+The pizza, in general, tasted really great               6.89 (1.39)    7.44 (1.6)     4.24 (0.04)  
+N                                                            63             61                      
+The first piece of pizza I ate tasted really great       7.08 (1.3)     7.45 (1.6)     1.97 (0.16)  
+N                                                            62             60                      
+The first piece of pizza I ate was very satisfying       7.08 (1.37)    7.34 (1.7)     0.82 (0.37)  
+N                                                            60             59                      
+The first piece of pizza I ate was very enjoyable        7.05 (1.4)     7.47 (1.55)    2.4 (0.12)   
+N                                                            60             60                      
+The middle piece of pizza I ate tasted really great      6.72 (1.5)      8.0 (1.1)     15.42 (0.0)  
+N                                                            43             29                      
+The middle piece of pizza I ate was very satisfying      6.67 (1.49)    7.97 (1.21)    14.69 (0.0)  
+N                                                            40             29                      
+The middle piece of pizza I ate was very enjoyable       6.64 (1.48)    7.81 (1.22)    12.48 (0.0)  
+N                                                            39             31                      
+The last piece of pizza I ate tasted really great        6.15 (1.89)    7.58 (1.39)    15.16 (0.0)  
+N                                                            47             38                      
+The last piece of pizza I ate was very satisfying        6.16 (1.87)    7.41 (1.55)    10.99 (0.0)  
+N                                                            45             39                      
+The last piece of pizza I ate was very enjoyable         5.98 (1.86)    7.45 (1.52)    15.6 (0.0)   
+N                                                            44             40                      
+
+
+
+Calculating correct Table 2 statistics
+                                                          $4 buffet      $8 buffet   F test (p value)
+The pizza, in general, tasted really great               6.92 (1.37)    7.55 (1.42)    6.11 (0.01)  
+N                                                            59             58                      
+The first piece of pizza I ate tasted really great       7.05 (1.31)    7.56 (1.44)    4.01 (0.05)  
+N                                                            59             57                      
+The first piece of pizza I ate was very satisfying       7.09 (1.35)    7.45 (1.49)    1.8 (0.18)   
+N                                                            57             56                      
+The first piece of pizza I ate was very enjoyable        7.09 (1.3)     7.51 (1.5)     2.56 (0.11)  
+N                                                            57             57                      
+The middle piece of pizza I ate tasted really great      6.81 (1.57)    8.0 (1.15)     6.51 (0.02)  
+N                                                            21             16                      
+The middle piece of pizza I ate was very satisfying      6.84 (1.61)    7.88 (1.2)     4.48 (0.04)  
+N                                                            19             16                      
+The middle piece of pizza I ate was very enjoyable       6.74 (1.59)    7.82 (1.19)    5.29 (0.03)  
+N                                                            19             17                      
+The last piece of pizza I ate tasted really great        6.11 (1.98)    7.56 (1.4)     12.34 (0.0)  
+N                                                            36             34                      
+The last piece of pizza I ate was very satisfying        6.09 (1.96)    7.47 (1.48)    10.76 (0.0)  
+N                                                            34             34                      
+The last piece of pizza I ate was very enjoyable         5.88 (1.93)    7.36 (1.55)    12.44 (0.0)  
+N                                                            33             36                      
+
+
+
+
+Table 3 means
+                                           $4                $8        
+                                    1st   2nd   3rd   1st   2nd   3rd  
+Pizza taste evaluations             7.43  6.81  6.48  8.13  8.00  7.88 
+N                                    21    21    21    16    16    16  
+Pizza satisfaction evaluations      7.53  6.84  6.39  7.75  7.88  7.75 
+N                                    19    19    18    16    16    16  
+Pizza satisfaction evaluations      7.58  6.74  6.11  7.82  7.82  7.71 
+N                                    19    19    18    17    17    17  

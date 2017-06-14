@@ -1,0 +1,59 @@
+Table 1
+
+Males' t tests
+                Student              Welch        
+Age           0.37 - 0.37         0.43 - 0.43     
+Height        1.98 - 1.99         2.12 - 2.14     
+Weight        2.21 - 2.21         1.96 - 1.97     
+BMI           1.53 - 1.54          1.4 - 1.41     
+
+Females' t tests
+Age            0.8 - 0.8           0.8 - 0.8      
+Height        0.44 - 0.45          0.5 - 0.51     
+Weight        2.62 - 2.63         2.34 - 2.34     
+BMI           3.05 - 3.07         3.01 - 3.03     
+
+
+
+
+
+Table 2
+(note: at a sample size of 40 floating point errors affect Python rounding)
+
+                              Males eating   Males eating   Females eating Females eating F test     F test     F test         
+                              with females   with males     with males     with females   Effect of  Effect of  Effect of      
+                                                                                          gender     group type gender x group 
+Salad consumed                5.27(3.07)     2.44(2.61)     5.23(2.84)     5.54(1.84)     4.41       2.98       4.64           
+N                             40             16             33             7                                                   
+Pizza slices consumed         2.89(1.77)     1.37(1.21)     1.54(0.88)     1.25(0.87)     6.43       9.87       4.52           
+N                             46             19             39             12                                                  
+I overate                     3.13(2.51)     2.95(2.57)     2.74(2.19)     1.36(1.21)     3.78       2.38       1.38           
+N                             45             19             39             11                                                  
+I felt rushed                 1.87(1.67)     2.47(2.22)     2.23(2.31)     1.18(0.4)      1.19       0.27       3.78           
+N                             45             19             39             11                                                  
+How many calories             458.33(307.25) 291.33(226.05) 444.0(279.94)  142.44(168.37) 1.5        12.37      1.02           
+N                             42             15             35             9                                                   
+I am physically uncomfortable 2.16(1.54)     2.47(2.32)     2.27(1.77)     1.91(2.12)     0.31       0.0        0.74           
+N                             45             19             40             11                                                  
+Total N                       46             19             41             12                                                  
+
+
+
+
+
+Table 3
+                              Only-male groups    Only one male in    More than one male  F test    
+                                                  mixed-sex groups    in mixed-sex groups           
+Salad consumed                2.44(2.61)          5.73(3.21)          4.86(2.96)          5.66      
+N                             16                  19                  21                            
+Pizza slices consumed         1.37(1.21)          2.91(1.65)          2.87(1.91)          5.8       
+N                             19                  23                  23                            
+I overate                     2.95(2.57)          3.32(2.77)          2.96(2.29)          0.15      
+N                             19                  22                  23                            
+I felt rushed                 2.47(2.22)          2.0(1.88)           1.74(1.48)          0.82      
+N                             19                  22                  23                            
+How many calories             291.33(226.05)      384.21(306.51)      519.57(300.66)      3.06      
+N                             15                  19                  23                            
+I am physically uncomfortable 2.47(2.32)          2.32(1.86)          2.0(1.17)           0.38      
+N                             19                  22                  23                            
+Total N                       19                  23                  23      

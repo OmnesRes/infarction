@@ -1,0 +1,51 @@
+Reproducing some of the original stats for Table 2
+
+$4 beginning model
+N= 62
+taste first coeff= 0.92
+
+$4 end model
+N= 47
+taste last coeff= 0.55
+
+$4 total model
+N= 41
+taste first coeff= 0.79
+taste middle coeff= 0.26
+taste last coeff= 0.07
+
+
+
+Showing how to calculate correct stats for Table 2
+
+$4 beginning model
+N= 59
+taste first coeff= 0.91
+
+$4 end model
+N= 36
+taste last coeff= 0.56
+
+$4 total model
+N= 21
+taste first coeff= 0.83
+taste middle coeff= -0.07
+taste last coeff= 0.21
+
+
+
+Showing how to reproduce the STATA output for Table 2
+
+$4 beginning model
+N= 62
+taste first coeff= 0.92
+
+$4 end model
+N= 39
+taste last coeff= 0.56
+
+$4 total model
+N= 24
+taste first coeff= 0.75
+taste middle coeff= 0.13
+taste last coeff= 0.13
