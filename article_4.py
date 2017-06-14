@@ -117,7 +117,7 @@ print formatting.format('','','','','','','','price')
 for variable in [ate_more_pizza, feel_guilty, physic_uncomf, overate, ate_more_general]:
     summary_slices(variable)
 
-print formatting.format('N',len(count_one_4),len(count_two_4),len(count_three_4),len(count_one_8),len(count_two_8),len(count_three_8),'')
+print formatting.format('Total N',len(count_one_4),len(count_two_4),len(count_three_4),len(count_one_8),len(count_two_8),len(count_three_8),'')
 
 
 
